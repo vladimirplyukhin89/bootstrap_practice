@@ -12,27 +12,38 @@
 </head>
 
 <body>
-    <div class="container bg-warning">.container</div>
-    <div class="container-sm bg-success">.container-sm</div>
-    <div class="container-md bg-warning">.container-md</div>
-    <div class="container-lg bg-success">.container-lg</div>
-    <div class="container-xl bg-info">.container-xl
-        <p class="p-2">Teкcт <small>мeньшeгo</small> размера</p>
-    </div>
-    <div style="background-color: var(--bs-gradient)">.container-fluid</div>
-    <div class="bg-warning">Пo <span class="font-monospace">умолчанию</span></div>
-    <div class="container-xxl bg-success">.container-xxl
-        <p class="p-2">
-            Обычный: шрифт<br>
-            <i>Текст, выделенный: курсивом</i>
-            <br>
-            <em>Текст, выделенный: курсивом</em>
-        </p>
+    <div class="w-50 m-3 р-3">
+        <div class="table-responsive-sm">
+            <table class="text-nowrap table table-bordered table-sm table-hover">
+                <caption class="text-center border-bottom-0 border-right-0 border caption-top">Пример таблицы
+                </caption>
+                <thead class="table-active">
+                    <tr>
+                        <th>Столбец l</th>
+                        <th>Столбец 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ячейка l</td>
+                        <td>Ячейка 2</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 3</td>
+                        <td>Ячейка 4</td>
+                    </tr>
+                    <tr>
+                        <td>Ячейка 5</td>
+                        <td>Ячейка 6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
     <script>
         // Сюда вставляем код на JavaScript 
         console.log('j Query v' + $.fn.jquery);
-        console.log($.fn.tooltip.Constructor.VERSION);
+        console.log($.fn.tooltip.Constructor);
     </script>
 </body>
 
