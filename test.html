@@ -11,40 +11,20 @@
     <title>Test Bootstrap</title>
 </head>
 
-<body>
-    <div class="w-50 m-3 р-3">
-        <div class="table-responsive-sm">
-            <table class="text-nowrap table table-bordered table-sm table-hover">
-                <caption class="text-center border-bottom-0 border-right-0 border caption-top">Пример таблицы
-                </caption>
-                <thead class="table-active">
-                    <tr>
-                        <th>Столбец l</th>
-                        <th>Столбец 2</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Ячейка l</td>
-                        <td>Ячейка 2</td>
-                    </tr>
-                    <tr>
-                        <td>Ячейка 3</td>
-                        <td>Ячейка 4</td>
-                    </tr>
-                    <tr>
-                        <td>Ячейка 5</td>
-                        <td>Ячейка 6</td>
-                    </tr>
-                </tbody>
-            </table>
+<body class="mt-5">
+    <div class="container bg-warning d-flex flex-row-reverse rounded">
+        <p class="visible border shadow mx-2 my-2 rounded px-1">Абзaц 1</p>
+        <p class="visible mx-2 my-2">Aбзaц 2</p>
+        <p class="border mx-2 my-2 shadow rounded px-1">Aбзaц 3</p>
+        <p class="mx-2 my-2">Абзaц 4</p>
+    </div>
+    <div class="container">
+        <div class="d-flex flex-row flex-nowrap" style="height: 400рх; width: 250рх; border: Зрх black solid">
+            <div class="bg-secondary text-white р-2" style="width: 100px; height: 100px">divl</div>
+            <div class="bg-danger text-white р-2" style="width: 100px; height: 100px">div2</div>
+            <div class="bg-success text-white р-2" style="width: 100px; height: 100px">div3</div>
         </div>
     </div>
-    <script>
-        // Сюда вставляем код на JavaScript 
-        console.log('j Query v' + $.fn.jquery);
-        console.log($.fn.tooltip.Constructor);
-    </script>
 </body>
 
 </html>
